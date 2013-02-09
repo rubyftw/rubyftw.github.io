@@ -17,7 +17,7 @@ you to join us in spreading the goodness of Ruby to anyone interested, but espec
 - Fork this site on [GitHub][github] and help us shine things up
 
   [group]: https://groups.google.com/rubyftw
-  [twitter]: http://twitter.com/twitter
+  [twitter]: http://twitter.com/rubyftw
   [github]: https://github.com/rubyftw
 
 ### When Do You Meet?
