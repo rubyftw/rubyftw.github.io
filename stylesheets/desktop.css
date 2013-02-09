@@ -136,3 +136,11 @@ a {
   text-transform: uppercase;
 }
 
+@media all and (max-width: 767px) {
+  .primary, .secondary {
+    float: none;
+    padding: 0 30px;
+    width: 100%;
+  }
+}
+
