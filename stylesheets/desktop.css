@@ -24,6 +24,10 @@ h1, h2, h3, h4 {
   font-weight: 800;
 }
 
+.short {
+  display: none;
+}
+
 .wrap {
   min-height: 100%;
   height: auto !important;
@@ -54,10 +58,6 @@ h1, h2, h3, h4 {
   font-size: 14px;
   font-weight: 200;
   letter-spacing: 3px;
-}
-
-.site-subtitle .of {
-  display: none;
 }
 
 .container {
@@ -138,12 +138,20 @@ a {
   font-size: 12px;
   font-weight: 200;
   letter-spacing: 3px;
-  padding: 30px;
+  padding: 30px 15px;
   text-align: center;
   text-transform: uppercase;
 }
 
 @media all and (max-width: 767px) {
+  .long {
+    display: none;
+  }
+
+  .short {
+    display: inline;
+  }
+
   .site-header {
     background-size: 400px;
   }
@@ -167,10 +175,6 @@ a {
     font-style: italic;
     letter-spacing: normal;
     text-transform: none;
-  }
-
-  .site-subtitle .of {
-    display: inline
   }
 
   .primary, .secondary {
