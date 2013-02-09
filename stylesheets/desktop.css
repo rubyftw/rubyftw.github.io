@@ -83,6 +83,7 @@ a {
 
 .event {
   font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
 }
 
 .event-date {
@@ -98,6 +99,10 @@ a {
 .event-details {
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.event-time {
+  text-transform: none;
 }
 
 .members-list {

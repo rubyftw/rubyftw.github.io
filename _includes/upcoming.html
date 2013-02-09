@@ -1,11 +1,11 @@
 <h3>Upcoming Events</h3>
-{% for event in site.categories.events limit:3 %}
+{% for event in site.categories.events reversed limit:3 %}
 <div class="event">
   <div class="event-date">
     {{ event.long_date }}
   </div>
   <div class="event-title">
-    <a href="{{ event.url }}">{{ event.title }}</a>
+    <a href="{{ event.link }}">{{ event.title }}</a>
   </div>
   <div class="event-details">
     <span class="event-time">{{ event.time }}</span>
