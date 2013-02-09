@@ -144,6 +144,10 @@ a {
 }
 
 @media all and (max-width: 767px) {
+  .site-header {
+    background-size: 400px;
+  }
+
   .site-title {
     font-size: 36px;
     letter-spacing: 8px;
