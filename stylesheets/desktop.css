@@ -15,7 +15,7 @@ html, body {
 
 body {
   color: #444;
-  font-family: 'Alegreya', 'Palatino', 'Palatino Linotype', serif;
+  font-family: 'Gentium Basic', 'Palatino', 'Palatino Linotype', serif;
   line-height: 1.5;
 }
 
@@ -163,7 +163,7 @@ a {
   }
 
   .site-subtitle .city {
-    font-family: 'Alegreya', serif;
+    font-family: 'Gentium Basic', serif;
     font-style: italic;
     letter-spacing: normal;
     text-transform: none;
