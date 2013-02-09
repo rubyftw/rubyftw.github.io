@@ -57,7 +57,7 @@ h1, h2, h3, h4 {
 .site-subtitle {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 3px;
 }
 
@@ -99,8 +99,7 @@ a {
 
 .event-date {
   font-size: 12px;
-  font-weight: 200;
-  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .event-title {
@@ -109,7 +108,7 @@ a {
 
 .event-details {
   font-size: 12px;
-  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .event-time {
@@ -137,7 +136,7 @@ a {
   color: #aaa;
   font-family: "Raleway", sans-serif;
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 3px;
   padding: 30px 15px;
   text-align: center;
