@@ -56,14 +56,21 @@ h1, h2, h3, h4 {
   letter-spacing: 3px;
 }
 
+.site-subtitle .of {
+  display: none;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
 }
 
+.primary, .secondary {
+  padding: 0 15px;
+}
+
 .primary {
   float: left;
-  padding-right: 30px;
   width: 70%;
 }
 
@@ -137,10 +144,38 @@ a {
 }
 
 @media all and (max-width: 767px) {
+  .site-title {
+    font-size: 36px;
+    letter-spacing: 8px;
+  }
+
+  .site-subtitle .bullet {
+    display: none;
+  }
+
+  .site-subtitle .enthusiasts,
+  .site-subtitle .city {
+    display: block;
+  }
+
+  .site-subtitle .city {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
+  .site-subtitle .of {
+    display: inline
+  }
+
   .primary, .secondary {
     float: none;
-    padding: 0 30px;
     width: 100%;
+  }
+
+  .footer {
+    font-size: 10px;
   }
 }
 
