@@ -15,7 +15,7 @@ html, body {
 
 body {
   color: #444;
-  font-family: 'Gentium Basic', 'Palatino', 'Palatino Linotype', serif;
+  font-family: 'Gentium Basic', 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -59,6 +59,15 @@ h1, h2, h3, h4 {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 3px;
+}
+
+.site-subtitle .of.long {
+  font-family: 'Gentium Basic', 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -175,6 +184,7 @@ a {
     font-style: italic;
     letter-spacing: normal;
     text-transform: none;
+    -webkit-font-smoothing: antialiased;
   }
 
   .primary, .secondary {
