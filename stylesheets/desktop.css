@@ -152,6 +152,10 @@ a {
   text-transform: uppercase;
 }
 
+.footer p {
+  text-indent: 12px;
+}
+
 @media all and (max-width: 767px) {
   .long {
     display: none;
@@ -194,6 +198,10 @@ a {
 
   .footer {
     font-size: 10px;
+  }
+
+  .footer p {
+    text-indent: 6px;
   }
 }
 
