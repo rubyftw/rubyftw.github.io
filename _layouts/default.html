@@ -1,53 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+---
+layout: master
+---
 
-    <title>Ruby FTW &bull; Ruby Enthusaists of Fort Worth</title>
-    <meta name="description" content="Ruby FTW - The Fort Worth, Texas Ruby Enthusiast Group" />
-    <meta name="viewport" content="width=device-width" />
+<div class="wrap">
+  {% include header.html %}
 
-    <link href="/stylesheets/desktop.css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Raleway:800,400,300|Gentium+Basic:400italic,700italic,400,700' rel='stylesheet' />
-
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-  </head>
-  <body>
-    <div class="wrap">
-      {% include header.html %}
-
-      <div class="container">
-        <div class="primary">
-          {{ content }}
-        </div>
-
-        <div class="secondary">
-          {% include upcoming.html %}
-          {% include links.html %}
-          {% include members.html %}
-        </div>
-      </div>
-
-      <div class="push"></div>
+  <div class="container">
+    <div class="primary">
+      {{ content }}
     </div>
 
-    <div class="footer">
-      <img src="/images/longhorn-small-gray.png" width="150" alt="" />
-      <p>Ruby F<span class="long">or </span>T<span class="long">he </span>W<span class="long">in</span> &#9733; F<span class="long">or</span>t<span class="short">.</span> Worth<span class="long">, Texas</span></p>
+    <div class="secondary">
+      {% include upcoming.html %}
+      {% include links.html %}
+      {% include members.html %}
     </div>
-    
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-1260172-7']);
-      _gaq.push(['_trackPageview']);
-    
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </body>
-</html>
+  </div>
+
+  <div class="push"></div>
+</div>
+
+<div class="footer">
+  <img src="/images/longhorn-small-gray.png" width="150" alt="" />
+  <p>Ruby F<span class="long">or </span>T<span class="long">he </span>W<span class="long">in</span> &#9733; F<span class="long">or</span>t<span class="short">.</span> Worth<span class="long">, Texas</span></p>
+</div>
+
