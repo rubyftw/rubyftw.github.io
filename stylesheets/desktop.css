@@ -15,9 +15,10 @@ html, body {
 
 body {
   color: #444;
-  font-family: 'Gentium Basic', 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.5;
+  font-weight: 300;
+  line-height: 1.75;
 }
 
 h1, h2, h3, h4 {
@@ -62,7 +63,7 @@ h1, h2, h3, h4 {
 }
 
 .site-subtitle .of.long {
-  font-family: 'Gentium Basic', 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
+  font-family: 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 0;
@@ -102,7 +103,6 @@ a {
 }
 
 .event {
-  font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
 }
 
@@ -112,6 +112,7 @@ a {
 }
 
 .event-title {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
 }
 
