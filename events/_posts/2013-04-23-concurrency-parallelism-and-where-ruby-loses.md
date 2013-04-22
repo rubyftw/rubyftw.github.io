@@ -1,5 +1,5 @@
 ---
-title: "Multithreaded Ruby"
+title: "Concurrency, Parallelism, and Where Ruby Loses"
 long_date: "Tuesday, April 23, 2013"
 link: "http://plancast.com/p/hx04"
 time: "6:30p"
