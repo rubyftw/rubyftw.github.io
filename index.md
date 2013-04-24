@@ -16,13 +16,14 @@ double-check the location before you head out.
 ### How Do I Get Involved?
 
 - [Join the group][group] and join in the discussions
-- Volunteer to speak on a subject
+- [Volunteer to speak][submit] on a subject
 - Announce impromptu meets at a nearby coffee shop or bar
-- Pitch a subject you would like to learn or talk about
+- [Pitch a subject][submit] you would like to learn or talk about
 - Follow announcements on [Twitter][twitter] and help spread the word about the group
 - Fork this site on [GitHub][github] and help us shine things up
 
   [group]: https://groups.google.com/rubyftw
   [twitter]: http://twitter.com/rubyftw
   [github]: https://github.com/rubyftw
+  [submit]: http://rubyftw.org/s/submit
 
