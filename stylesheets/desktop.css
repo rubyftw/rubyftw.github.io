@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 }
 
 .site-header {
-  background: #991111 url('/images/ruby.png') no-repeat center 30px;
+  background: #991139 url('/images/ruby.png') no-repeat center 30px;
   background-size: 630px 485px;
   font-weight: 800;
   color: #fff;
@@ -91,14 +91,14 @@ h1, h2, h3, h4 {
 }
 
 h3 {
-  color: #991111;
+  color: #991139;
   font-family: 'Raleway' sans-serif;
   font-size: 24px;
   font-weight: 800;
 }
 
 a {
-  color: #991111;
+  color: #991139;
   text-decoration: none;
 }
 
