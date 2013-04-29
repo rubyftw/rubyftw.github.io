@@ -91,10 +91,14 @@ h1, h2, h3, h4 {
 }
 
 h3 {
-  color: #991139;
+  color: #11976B;
   font-family: 'Raleway' sans-serif;
   font-size: 24px;
   font-weight: 800;
+}
+
+h3 i {
+  color: #991139;
 }
 
 a {
