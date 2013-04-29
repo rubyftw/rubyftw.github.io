@@ -1,5 +1,5 @@
 ---
-title: "RubyMotion and Helios"
+title: "RubyMotion with Chris Voss"
 long_date: "Tuesday, May 28, 2013"
 link:
 time: "6:30p"
