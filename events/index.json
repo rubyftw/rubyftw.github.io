@@ -4,6 +4,7 @@ json: true
 [
   {% for event in site.categories.events reversed limit:10 %}
   { "title": "{{ event.title }}"
+  , "date": "{{ event.date }}"
   , "long_date": "{{ event.long_date }}"
   , "link": "{{ event.link }}"
   , "time": "{{ event.time }}"
