@@ -1,0 +1,16 @@
+---
+json: true
+---
+[
+  {% for event in site.categories.events reversed limit:10 %}
+  { "title": "{{ event.title }}"
+  , "long_date": "{{ event.long_date }}"
+  , "link": "{{ event.link }}"
+  , "time": "{{ event.time }}"
+  , "location": "{{ event.location }}"
+  , "location_url": "{{ event.location_url }}"
+  , "rsvp_url": "{{ event.rsvp_url }}"
+  },
+  {% endfor %}
+]
+
