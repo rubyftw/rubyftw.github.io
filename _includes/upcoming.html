@@ -13,8 +13,10 @@
   </div>
   <div class="event-details">
     <span class="event-time">{{ event.time }}</span>
+    {% if event.location %}
     @
     <span class="event-location"><a href="{{ event.location_url }}">{{ event.location }}</a></span>
+    {% endif %}
     {% if event.rsvp_url %}
       | <span class="event-rsvp"><a href="{{ event.rsvp_url }}">RSVP</a></span>
     {% endif %}
