@@ -17,7 +17,7 @@ bundle install
 To run the jekyll server:
 
 ```bash
-jekyll --server --auto
+jekyll serve --watch
 ```
 
 Then open <http://localhost:4000> in your browser.
