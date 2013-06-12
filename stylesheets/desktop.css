@@ -26,6 +26,10 @@ h1, h2, h3, h4 {
   font-weight: 800;
 }
 
+[class^='pure-u-'] { padding: 0 10px; }
+[class^='pure-u-']:first-child { padding-left: 0; }
+[class^='pure-u-']:last-child { padding-right: 0; }
+
 .short {
   display: none;
 }
@@ -74,21 +78,9 @@ h1, h2, h3, h4 {
 .container {
   margin: 0 auto;
   max-width: 1000px;
+  padding: 20px;
 }
 
-.primary, .secondary {
-  padding: 0 15px;
-}
-
-.primary {
-  float: left;
-  width: 70%;
-}
-
-.secondary {
-  float: right;
-  width: 30%;
-}
 
 h3 {
   color: #991139;
@@ -195,11 +187,6 @@ a {
     letter-spacing: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-  }
-
-  .primary, .secondary {
-    float: none;
-    width: 100%;
   }
 
   .footer {
