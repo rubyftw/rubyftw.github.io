@@ -98,6 +98,11 @@ a {
   text-decoration: none;
 }
 
+p.intro {
+  font-size: 24px;
+  font-style: italic;
+}
+
 .event {
   margin-bottom: 30px;
 }
