@@ -101,6 +101,11 @@ a {
 p.intro {
   font-size: 24px;
   font-style: italic;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
 }
 
 .event {
