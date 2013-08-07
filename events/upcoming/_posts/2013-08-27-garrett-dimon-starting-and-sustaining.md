@@ -1,9 +1,9 @@
 ---
-title: "Garrett Dimon: Starting and Sustaining"
+title: "Garrett Dimon: Starting + Sustaining"
 long_date: "Tuesday, August 27, 2013"
-link:
+link: http://plancast.com/p/j5rx
 time: "6:30p"
-location:
+location: TBA
 location_url:
-rsvp_url:
+rsvp_url: http://plancast.com/p/j5rx
 ---
