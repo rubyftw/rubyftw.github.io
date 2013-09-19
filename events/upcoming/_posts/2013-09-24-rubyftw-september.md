@@ -1,5 +1,5 @@
 ---
-title: "Ruby FTW September: Docker"
+title: "Ruby FTW September"
 long_date: "September 24, 2013"
 link: 'http://plancast.com/p/j5s8'
 time: "6:30pm"
