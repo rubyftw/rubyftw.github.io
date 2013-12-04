@@ -1,5 +1,5 @@
 ---
-title: "Ruby FTW December: Maintaning Legacy Rails Apps with B.J. Allen"
+title: "Ruby FTW December: Legacy Rails Apps with B.J. Allen"
 long_date: "December 11, 2013"
 link: http://plancast.com/p/kakh
 time: "6:30pm"
