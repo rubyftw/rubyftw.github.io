@@ -1,10 +1,10 @@
 ---
 title: "Ruby FTW January: Byron Appelt: Better Code through Badges"
 long_date: "January 28, 2014"
-link:
+link: 
 time: "6:30pm"
-location:
-location_url:
+location: Simpli.fi
+location_url: https://goo.gl/maps/o34lH
 rsvp_url:
 ---
 
