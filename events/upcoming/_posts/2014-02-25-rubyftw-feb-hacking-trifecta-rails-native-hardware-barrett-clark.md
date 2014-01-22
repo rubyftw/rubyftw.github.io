@@ -4,8 +4,8 @@ long_date: "February 25, 2014"
 link:
 time: "6:30pm"
 location: Simpli.fi
-location_url:
-rsvp_url:
+location_url: https://goo.gl/maps/o34lH
+rsvp_url: 
 ---
 
 Where am I and what's around me? GPS and Wifi are already in use to provide location, but 
