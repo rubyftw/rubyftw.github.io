@@ -24,3 +24,11 @@ enforcement, provide escorts, or otherwise assist those experiencing harassment 
 duration of the meeting. We value your attendance.
 
 We expect participants to follow these rules at all venues and related social events.
+
+### Contact Information
+
+Please do not hesitate to contact any of the following people with questions or concerns:
+
+**Phillip Ridlen**, organizer  
+(469) 293-4927  
+<phillip@rubyftw.org>
