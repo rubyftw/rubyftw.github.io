@@ -1,11 +1,11 @@
 ---
 title: "Ruby FTW February: Hacking Trifecta: Rails, Native, and Hardware"
 long_date: "February 25, 2014"
-link:
+link: http://www.jacksonisthere.com/events/4-ruby-ftw-february-hacking-trifecta-rails-native-and-hardware
 time: "6:30pm"
 location: Simpli.fi
 location_url: https://goo.gl/maps/o34lH
-rsvp_url: 
+rsvp_url: http://www.jacksonisthere.com/events/4-ruby-ftw-february-hacking-trifecta-rails-native-and-hardware
 ---
 
 Where am I and what's around me? GPS and Wifi are already in use to provide location, but 
