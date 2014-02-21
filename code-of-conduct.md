@@ -30,5 +30,5 @@ We expect participants to follow these rules at all venues and related social ev
 Please do not hesitate to contact any of the following people with questions or concerns:
 
 **Phillip Ridlen**, organizer  
-(469) 293-4927  
+(817) 523-9480  
 <phillip@rubyftw.org>
