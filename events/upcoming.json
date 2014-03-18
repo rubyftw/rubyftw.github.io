@@ -11,7 +11,7 @@ json: true
   , "location": "{{ event.location }}"
   , "location_url": "{{ event.location_url }}"
   , "rsvp_url": "{{ event.rsvp_url }}"
-  },
+  }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
 
