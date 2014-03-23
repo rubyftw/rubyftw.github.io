@@ -1,11 +1,11 @@
 ---
 title: "Ruby FTW April: Popping Pills with Dr. Insane-o"
 long_date: "April 29, 2014"
-link:
+link: http://www.jacksonisthere.com/events/7-ruby-ftw-april-popping-pills-with-dr-insane-o
 time: "6:30pm"
 location: Simpli.fi
 location_url: https://goo.gl/maps/o34lH
-rsvp_url:
+rsvp_url: http://www.jacksonisthere.com/events/7-ruby-ftw-april-popping-pills-with-dr-insane-o
 ---
 
 Presented by Erik Potter:
