@@ -1,5 +1,5 @@
 ---
-title: "Ruby FTW May"
+title: "Ruby FTW May: Nathaniel Watts"
 long_date: "April 29, 2014"
 link: http://h4q.me/rubyftw-2014-05
 time: "6:30pm"
