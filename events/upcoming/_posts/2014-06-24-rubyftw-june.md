@@ -1,6 +1,6 @@
 ---
 title: "Ruby FTW June: John Tornow"
-long_date: "April 29, 2014"
+long_date: "June 24, 2014"
 link: http://h4q.me/rubyftw-2014-06
 time: "6:30pm"
 location: Simpli.fi
