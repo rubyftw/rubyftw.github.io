@@ -1,5 +1,5 @@
 ---
-title: "Ruby FTW June: John Tornow"
+title: "Ruby FTW June"
 long_date: "June 24, 2014"
 link: http://h4q.me/rubyftw-2014-06
 time: "6:30pm"
