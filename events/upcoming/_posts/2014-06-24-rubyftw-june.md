@@ -1,9 +1,9 @@
 ---
-title: "Ruby FTW June"
+title: "[CANCELED] Ruby FTW June"
 long_date: "June 24, 2014"
-link: http://h4q.me/rubyftw-2014-06
+link: 
 time: "6:30pm"
 location: Simpli.fi
 location_url: https://goo.gl/maps/o34lH
-rsvp_url: http://h4q.me/rubyftw-2014-06
+rsvp_url:
 ---
