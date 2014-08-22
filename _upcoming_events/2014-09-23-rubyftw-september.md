@@ -1,0 +1,10 @@
+---
+title: "Ruby FTW September"
+long_date: "September 23, 2014"
+link: 
+time: "6:30pm"
+location: Simpli.fi
+location_url: https://goo.gl/maps/o34lH
+rsvp_url:
+---
+

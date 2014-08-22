@@ -1,2 +1,7 @@
 markdown: kramdown
 exclude: ["vendor"]
+
+collections:
+  - archived_events
+  - upcoming_events
+

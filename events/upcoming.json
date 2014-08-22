@@ -2,7 +2,7 @@
 json: true
 ---
 [
-  {% for event in site.categories.upcoming reversed %}
+  {% for event in site.upcoming_events reversed %}
   { "title": "{{ event.title }}"
   , "date": "{{ event.date | date: '%Y-%m-%d' }}"
   , "long_date": "{{ event.long_date }}"
