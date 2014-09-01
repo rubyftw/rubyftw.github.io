@@ -75,13 +75,6 @@ h1, h2, h3, h4 {
   -webkit-font-smoothing: antialiased;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 20px;
-}
-
-
 h3 {
   color: #991139;
   font-family: 'Raleway' sans-serif;
@@ -181,6 +174,12 @@ p.intro {
     line-height: 1.2;
   }
 
+  h1, h2, h3, p {
+    padding: 20px 20px 0 20px;
+  }
+
+  .pure-g [class*='pure-u-'] { padding: 0px; }
+
   p.intro {
     font-size: 16px;
     margin: 0;
@@ -220,8 +219,21 @@ p.intro {
     -webkit-font-smoothing: antialiased;
   }
 
+  .event {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .event + .event {
+    border-top: 1px dotted #e5e5e5;
+  }
+
   .event-description {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .event-description p {
+    padding: 0;
   }
 
   .footer {
