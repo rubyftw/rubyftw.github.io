@@ -20,7 +20,7 @@
     {% if event.rsvp_url %}
       | <span class="event-rsvp"><a href="{{ event.rsvp_url }}">RSVP</a></span>
     {% endif %}
-    {% if event.content %}<p>{{ event.content }}</p>{% endif %}
+    {% if event.content %}<p>{{ event.content | markdownify }}</p>{% endif %}
   </div>
 </div>
 {% endfor %}
