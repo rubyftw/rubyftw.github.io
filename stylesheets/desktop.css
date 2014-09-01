@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
 .pure-g [class*='pure-u-'] { padding: 10px; }
 
 .container {
-  max-width: 1000px;
+  max-width: 48em;
   margin: 0 auto;
 }
 
@@ -164,11 +164,7 @@ p.intro {
   text-indent: 12px;
 }
 
-@media all and (max-width: 767px) {
-  body {
-    font-size: 14px;
-  }
-
+@media all and (max-width: 48em) {
   h1, h2, h3 {
     font-size: 1.3em;
     line-height: 1.2;
