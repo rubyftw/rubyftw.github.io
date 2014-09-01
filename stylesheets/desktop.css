@@ -174,15 +174,15 @@ p.intro {
     line-height: 1.2;
   }
 
-  h1, h2, h3, p {
-    padding: 20px 20px 0 20px;
+  h1, h2, h3, h4, ul.members-list, p {
+    padding: 0 20px;
   }
 
   .pure-g [class*='pure-u-'] { padding: 0px; }
 
   p.intro {
     font-size: 16px;
-    margin: 0;
+    margin: 20px 0 0 0;
   }
 
   .long {
