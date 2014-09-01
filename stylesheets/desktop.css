@@ -173,16 +173,17 @@ p.intro {
 
 @media all and (max-width: 767px) {
   body {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   h1, h2, h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.2;
   }
 
   p.intro {
-    font-size: 18px;
+    font-size: 16px;
+    margin: 0;
   }
 
   .long {
@@ -217,6 +218,10 @@ p.intro {
     letter-spacing: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
+  }
+
+  .event-description {
+    font-size: 12px;
   }
 
   .footer {
