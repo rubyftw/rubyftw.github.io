@@ -1,6 +1,6 @@
 ---
 title: "Ruby FTW November/December: Share Your Story"
-long_date: "December 11, 2014"
+long_date: "December 9, 2014"
 link: 
 time: "6:30pm"
 location: Simpli.fi
