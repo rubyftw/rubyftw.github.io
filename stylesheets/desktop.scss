@@ -1,3 +1,17 @@
+---
+---
+$ruby-red: #991139;
+$newbie-black: #222;
+$garbage-collector-gray: #444;
+$meta-gray: #9db0b5;
+$meta-white: #eef3f3;
+
+$font-family-sans-serif: "calluna-sans", "Calluna Sans", "Segoe UI", Helvetica, sans-serif;
+$font-family-serif: "Palatino", "Palatino Linotype", "URW Palladio", serif;
+
+
+* {
+  -moz-box-sizing: border-box;
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -11,18 +25,17 @@ html, body {
 }
 
 body, .pure-g [class *= "pure-u"] {
-  font-family: "calluna-sans", 'Lato', Helvetica, Arial, sans-serif;
+  font-family: $font-family-sans-serif;
 }
 
 body {
-  color: #444;
+  color: $garbage-collector-gray;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.75;
 }
 
 h1, h2, h3, h4 {
-  font-family: "calluna-sans", "Raleway", sans-serif;
   font-weight: 800;
 }
 
@@ -35,25 +48,25 @@ h1, h2, h3, h4 {
 }
 
 .container-intro {
-  background: #222;
+  background: $newbie-black;
   color: #fff !important;
 }
 
 .container-scoop {
-  background: #eef3f3;
+  background: $meta-white;
 }
 
 .container-misc {
   color: #ccc;
-  background-color: #991139;
+  background-color: $ruby-red;
 }
 
 .container-misc h3 {
-  color: #eef3f3;
+  color: $meta-white;
 }
 
 .container-misc a {
-  color: #eef3f3;
+  color: $meta-white;
   text-decoration: underline;
 }
 
@@ -69,7 +82,7 @@ h1, h2, h3, h4 {
 }
 
 .site-header {
-  background: #991139 url('/images/ruby.png') no-repeat center 30px;
+  background: $ruby-red url('/images/ruby.png') no-repeat center 30px;
   background-size: 630px 485px;
   font-weight: 800;
   color: #fff;
@@ -80,21 +93,19 @@ h1, h2, h3, h4 {
 }
 
 .site-title {
-  font-family: "calluna-sans", 'Raleway', sans-serif;
   font-size: 64px;
   letter-spacing: 15px;
   margin-bottom: 0;
 }
 
 .site-subtitle {
-  font-family: "calluna-sans", 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 3px;
 }
 
 .site-subtitle .of.long {
-  font-family: 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
+  font-family: $font-family-serif;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 0;
@@ -103,8 +114,7 @@ h1, h2, h3, h4 {
 }
 
 h3 {
-  color: #991139;
-  font-family: "calluna-sans", 'Raleway' sans-serif;
+  color: $ruby-red;
   font-size: 24px;
   font-weight: 800;
 }
@@ -114,7 +124,7 @@ h3 i {
 }
 
 a {
-  color: #991139;
+  color: $ruby-red;
   text-decoration: none;
 }
 
@@ -132,7 +142,7 @@ li {
 
 li:before {
   content: "•";
-  color: #9db0b5;
+  color: $meta-gray;
   padding-right: 0.5em;
 }
 
@@ -145,13 +155,13 @@ p.intro {
 }
 
 .event {
-  /* background-color: #eef3f3; */
+  /* background-color: $meta-white; */
   /* border-radius: 10px; */
   margin-bottom: 20px;
 }
 
 .event + .event {
-  border-left: 1px solid #eef3f3;
+  border-left: 1px solid $meta-white;
 }
 
 .event-inner {
@@ -164,7 +174,6 @@ p.intro {
 }
 
 .event-title {
-  font-family: "calluna-sans", "Raleway", sans-serif;
   font-weight: 800;
 }
 
@@ -206,9 +215,8 @@ p.intro {
 }
 
 .footer {
-  background-color: #222;
-  color: #444;
-  font-family: "calluna-sans", "Raleway", sans-serif;
+  background-color: $newbie-black;
+  color: $garbage-collector-gray;
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -265,7 +273,7 @@ p.intro {
   }
 
   .site-subtitle .city {
-    font-family: 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
+    font-family: $font-family-serif;
     font-style: italic;
     letter-spacing: normal;
     text-transform: none;
@@ -293,4 +301,9 @@ p.intro {
     text-indent: 6px;
   }
 }
+
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 
