@@ -11,8 +11,11 @@ html, body {
 }
 
 body, .pure-g [class *= "pure-u"] {
-  color: #444;
   font-family: "calluna-sans", 'Lato', Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: #444;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.75;
@@ -25,9 +28,33 @@ h1, h2, h3, h4 {
 
 .pure-g [class*='pure-u-'] { padding: 10px; }
 
-.container {
-  max-width: 48em;
+.container > * {
+  max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+.container-intro {
+  background: #222;
+  color: #fff !important;
+}
+
+.container-scoop {
+  background: #eef3f3;
+}
+
+.container-misc {
+  color: #ccc;
+  background-color: #991139;
+}
+
+.container-misc h3 {
+  color: #eef3f3;
+}
+
+.container-misc a {
+  color: #eef3f3;
+  text-decoration: underline;
 }
 
 .short {
@@ -111,19 +138,24 @@ li:before {
 
 p.intro {
   font-size: 24px;
-  /* font-style: italic; */
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-  text-align: justify;
 }
 
 .event {
-  background-color: #eef3f3;
-  border-radius: 10px;
+  /* background-color: #eef3f3; */
+  /* border-radius: 10px; */
   margin-bottom: 20px;
-  padding: 20px;
+}
+
+.event + .event {
+  border-left: 1px solid #eef3f3;
+}
+
+.event-inner {
+  padding: 10px;
 }
 
 .event-date {
@@ -171,12 +203,11 @@ p.intro {
 .push, .footer {
   clear: both;
   height: 120px;
-  margin-top: 50px;
 }
 
 .footer {
-  background-color: #eef3f3;
-  color: #aaa;
+  background-color: #222;
+  color: #444;
   font-family: "calluna-sans", "Raleway", sans-serif;
   font-size: 12px;
   font-weight: 300;
@@ -248,10 +279,6 @@ p.intro {
 
   .event + .event {
     border-top: 1px dotted #e5e5e5;
-  }
-
-  .event-description {
-    font-size: 14px;
   }
 
   .event-description p {

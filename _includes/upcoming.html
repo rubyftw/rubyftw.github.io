@@ -1,30 +1,35 @@
-<h3><i class="icon-calendar"></i> Upcoming Events</h3>
-{% for event in site.upcoming_events %}
-<div class="event">
-  <div class="event-date">
-    {{ event.long_date }}
-  </div>
-  <div class="event-title">
-    {% if event.link %}
-      <a href="{{ event.link }}">{{ event.title }}</a>
-    {% else %}
-      {{ event.title }}
-    {% endif %}
-  </div>
-  <div class="event-details">
-    <span class="event-time">{{ event.time }}</span>
-    {% if event.location %}
-    @
-    <span class="event-location"><a href="{{ event.location_url }}">{{ event.location }}</a></span>
-    {% endif %}
-    {% if event.rsvp_url %}
-      | <span class="event-rsvp"><a href="{{ event.rsvp_url }}">RSVP</a></span>
-    {% endif %}
-  </div>
-  <div class="event-description">
-    {{ event.content | markdownify }}
-  </div>
+<div class="pure-u-1">
+  <h3><i class="icon-calendar"></i> Upcoming Events</h3>
 </div>
+
+{% for event in site.upcoming_events %}
+  <div class="event pure-u-1 pure-u-md-1-3">
+    <div class="event-inner">
+      <div class="event-date">
+        {{ event.long_date }}
+      </div>
+      <div class="event-title">
+        {% if event.link %}
+          <a href="{{ event.link }}">{{ event.title }}</a>
+        {% else %}
+          {{ event.title }}
+        {% endif %}
+      </div>
+      <div class="event-details">
+        <span class="event-time">{{ event.time }}</span>
+        {% if event.location %}
+        @
+        <span class="event-location"><a href="{{ event.location_url }}">{{ event.location }}</a></span>
+        {% endif %}
+        {% if event.rsvp_url %}
+          | <span class="event-rsvp"><a href="{{ event.rsvp_url }}">RSVP</a></span>
+        {% endif %}
+      </div>
+      <div class="event-description">
+        {{ event.content | markdownify }}
+      </div>
+    </div>
+  </div>
 {% endfor %}
 
 

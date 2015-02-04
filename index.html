@@ -1,45 +1,56 @@
 ---
 layout: home
 ---
-<div class="pure-g">
-  <div class="pure-u-1">
-    <p class="intro"><strong>We need you!</strong> That's right friend, fellow enthusiast, Ruby
-      newbie, good-looking passerby, we're calling upon you to join us in spreading the goodness of
-      <a href="http://ruby-lang.org">the Ruby programming language</a> to anyone interested, but
-      especially to you!</p>
-  </div>
-
-  <div class="pure-u-1 pure-u-md-2-3">
-    {% include upcoming.html %}
-  </div>
-
-  <div class="pure-u-1 pure-u-md-1-3">
-    <h3><i class="icon-question-sign"></i> Get Involved</h3>
-    <ul>
-      <li><a href="/s/group">Join the group</a> and participate in discussions</li>
-      <li>Attend our monthly meetups (don't forget to RSVP)</li>
-      <li><a href="/s/submit">Volunteer to speak</a> on a subject</li>
-      <li>Announce impromptu meetups at a nearby beverage joint</li>
-      <li>Follow announcements on <a href="/s/twitter">Twitter</a></li>
-      <li>Fork this site on <a href="/s/github">GitHub</a> and help us shine things up</li>
-    </ul>
-  </div>
-
-  <div class="pure-u-1 pure-u-md-1-3">
-    <h3><i class="icon-time"></i> The Scoop</h3>
-    <p>We meet on the fourth Tuesday of each month at 6:30pm. Our current meeting spot is at
-      <a href="http://goo.gl/J2VQDb">Simpl.fi</a>, just west of Downtown Fort Worth, but make sure to
-      double-check the location before you head out. Organizing impromptu hacknights is strongly
-      encouraged!
-    </p>
-  </div>
-
-  <div class="pure-u-1 pure-u-md-1-3">
-    {% include members.html %}
-  </div>
-
-  <div class="pure-u-1 pure-u-md-1-3">
-    {% include links.html %}
+<div class="container container-intro">
+  <div class="pure-g">
+    <div class="pure-u-1">
+      <p class="intro"><em>We need you!</em> That's right friend, fellow enthusiast, Ruby newbie,
+        good-looking passerby, we're calling upon you to join us in spreading the goodness of
+        <strong><a href="http://ruby-lang.org">the Ruby programming language</a></strong> to anyone
+        interested, but especially to you!</p>
+    </div>
   </div>
 </div>
 
+<div class="container container-scoop">
+  <div class="pure-g">
+    <div class="pure-u-1">
+      <h3><i class="icon-time"></i> The Scoop</h3>
+      <p>We meet on the fourth Tuesday of each month at 6:30pm. Our current meeting spot is at <a
+          href="http://goo.gl/J2VQDb">Simpl.fi</a>, just west of Downtown Fort Worth, but make sure
+        to double-check the location before you head out. Organizing impromptu hacknights is
+        strongly encouraged!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container container-events">
+  <div class="pure-g">
+    {% include upcoming.html %}
+  </div>
+</div>
+
+<div class="container container-misc">
+  <div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2">
+      <h3><i class="icon-question-sign"></i> How to Get Involved</h3>
+      <ul>
+        <li><a href="/s/group">Join the Google group</a> and participate in discussions</li>
+        <li>Attend our monthly meetups (don't forget to RSVP)</li>
+        <li><a href="/s/submit">Volunteer to speak</a> on a subject</li>
+        <li>Announce impromptu meetups at a nearby beverage joint</li>
+        <li>Follow announcements on <a href="/s/twitter">Twitter</a></li>
+        <li>Fork this site on <a href="/s/github">GitHub</a> and help us shine things up</li>
+      </ul>
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-4">
+      {% include members.html %}
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-4">
+      {% include links.html %}
+    </div>
+  </div>
+</div>
