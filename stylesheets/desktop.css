@@ -12,14 +12,14 @@ html, body {
 
 body, .pure-g [class *= "pure-u"] {
   color: #444;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: "calluna-sans", 'Lato', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.75;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "calluna-sans", "Raleway", sans-serif;
   font-weight: 800;
 }
 
@@ -47,20 +47,20 @@ h1, h2, h3, h4 {
   font-weight: 800;
   color: #fff;
   padding: 30px 0;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 }
 
 .site-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: "calluna-sans", 'Raleway', sans-serif;
   font-size: 64px;
   letter-spacing: 15px;
   margin-bottom: 0;
 }
 
 .site-subtitle {
-  font-family: 'Raleway', sans-serif;
+  font-family: "calluna-sans", 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -77,13 +77,13 @@ h1, h2, h3, h4 {
 
 h3 {
   color: #991139;
-  font-family: 'Raleway' sans-serif;
+  font-family: "calluna-sans", 'Raleway' sans-serif;
   font-size: 24px;
   font-weight: 800;
 }
 
 h3 i {
-  color: #11976B;
+  color: #ccc;
 }
 
 a {
@@ -91,9 +91,27 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-indent: -0.5em;
+  padding-left: 1.5em;
+}
+
+
+li:before {
+  content: "•";
+  color: #9db0b5;
+  padding-right: 0.5em;
+}
+
 p.intro {
   font-size: 24px;
-  font-style: italic;
+  /* font-style: italic; */
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
@@ -114,7 +132,7 @@ p.intro {
 }
 
 .event-title {
-  font-family: "Raleway", sans-serif;
+  font-family: "calluna-sans", "Raleway", sans-serif;
   font-weight: 800;
 }
 
@@ -138,8 +156,16 @@ p.intro {
   padding: 0;
 }
 
+.members-list .member:before {
+  content: none;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
 .member {
   display: inline;
+  padding: 0;
 }
 
 .push, .footer {
@@ -151,7 +177,7 @@ p.intro {
 .footer {
   background-color: #eef3f3;
   color: #aaa;
-  font-family: "Raleway", sans-serif;
+  font-family: "calluna-sans", "Raleway", sans-serif;
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -208,7 +234,7 @@ p.intro {
   }
 
   .site-subtitle .city {
-    font-family: 'Gentium Basic', serif;
+    font-family: 'Palatino', 'Palatino Linotype', 'URW Palladio', serif;
     font-style: italic;
     letter-spacing: normal;
     text-transform: none;
