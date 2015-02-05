@@ -1,0 +1,63 @@
+.site-header {
+  background: $ruby-red url('/images/ruby.png') no-repeat center 30px;
+  background-size: 630px 485px;
+  font-weight: 800;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.site-title {
+  font-size: 64px;
+  letter-spacing: 15px;
+  margin-bottom: 0;
+}
+
+.site-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.site-subtitle .of.long {
+  font-family: $font-family-serif;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media all and (max-width: $container-desktop-width) {
+  .site-header {
+    background-size: 400px;
+  }
+
+  .site-header img {
+    width: 300px;
+  }
+
+  .site-title {
+    font-size: 36px;
+    letter-spacing: 8px;
+  }
+
+  .site-subtitle .bullet {
+    display: none;
+  }
+
+  .site-subtitle .enthusiasts,
+  .site-subtitle .city {
+    display: block;
+  }
+
+  .site-subtitle .city {
+    font-family: $font-family-serif;
+    font-style: italic;
+    letter-spacing: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+  }
+}

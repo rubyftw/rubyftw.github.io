@@ -1,0 +1,36 @@
+.wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -120px;
+}
+
+.push, .footer {
+  clear: both;
+  height: 120px;
+}
+
+.footer {
+  background-color: $newbie-black;
+  color: $garbage-collector-gray;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 30px 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer p {
+  text-indent: 12px;
+}
+
+@media all and (max-width: $container-desktop-width) {
+  .footer {
+    font-size: 10px;
+  }
+
+  .footer p {
+    text-indent: 6px;
+  }
+}

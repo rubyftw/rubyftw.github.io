@@ -1,0 +1,48 @@
+.event {
+  margin-bottom: 20px;
+}
+
+.event + .event {
+  border-left: 1px solid $meta-white;
+}
+
+.event-inner {
+  padding: 10px;
+}
+
+.event-date {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.event-title {
+  font-weight: 800;
+}
+
+.event-details {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.event-description p {
+  margin-bottom: 0;
+}
+
+.event-time {
+  text-transform: none;
+}
+
+@media all and (max-width: $container-desktop-width) {
+  .event {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .event + .event {
+    border-top: 1px dotted #e5e5e5;
+  }
+
+  .event-description p {
+    padding: 0;
+  }
+}

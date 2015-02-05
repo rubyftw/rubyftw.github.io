@@ -1,0 +1,35 @@
+---
+---
+$ruby-red: #991139;
+$newbie-black: #222;
+$garbage-collector-gray: #444;
+$meta-gray: #9db0b5;
+$meta-white: #eef3f3;
+
+$font-family-sans-serif: "calluna-sans", "Calluna Sans", "Segoe UI", Helvetica, sans-serif;
+$font-family-serif: "Palatino", "Palatino Linotype", "URW Palladio", serif;
+
+$container-desktop-width: 48em;
+
+@import "base";
+@import "container";
+@import "events";
+@import "footer";
+@import "masthead";
+@import "members";
+
+p.intro {
+  font-size: 24px;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+@media all and (max-width: $container-desktop-width) {
+  p.intro {
+    font-size: 18px;
+    margin: 20px 0 0 0;
+  }
+}
+

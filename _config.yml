@@ -5,3 +5,5 @@ collections:
   - archived_events
   - upcoming_events
 
+asset_version: v3
+
