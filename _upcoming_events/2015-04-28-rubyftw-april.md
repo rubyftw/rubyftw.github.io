@@ -8,5 +8,5 @@ location_url: https://goo.gl/maps/o34lH
 rsvp_url: http://h4q.me/rubyftw-2015-04
 ---
 
-Topic TBD.
+Join us for a friendly discussion of all things directly and tangentially related to Ruby.
 
