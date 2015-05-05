@@ -1,5 +1,5 @@
 ---
-title: "Ruby FTW June: TBD"
+title: "Ruby FTW June: Discussion"
 long_date: "May 26, 2015"
 link:
 time: "6:30pm"
@@ -8,4 +8,4 @@ location_url: https://goo.gl/maps/o34lH
 rsvp_url: 
 ---
 
-If you would like to speak, [submit a topic](/s/submit).
+Chat & eat pizza.
