@@ -1,6 +1,6 @@
 ---
 title: "Ruby FTW July: TBD"
-long_date: "May 26, 2015"
+long_date: "August 25, 2015"
 link:
 time: "6:30pm"
 location: Simpli.fi
