@@ -1,11 +1,11 @@
 ---
-title: "Ruby FTW July: TBD"
+title: "Ruby FTW July"
 long_date: July 28, 2015"
-link:
+link: http://h4q.me/rubyftw-2015-07
 time: "6:30pm"
 location: Simpli.fi
 location_url: https://goo.gl/maps/o34lH
-rsvp_url: 
+rsvp_url: http://h4q.me/rubyftw-2015-07
 ---
 
-If you would like to speak, [submit a topic](/s/submit)
+We’ll do some stuff and eat some stuff.
