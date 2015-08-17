@@ -1,5 +1,5 @@
 ---
-title: "Ruby FTW July: TBD"
+title: "Ruby FTW August: TBD"
 long_date: "August 25, 2015"
 link:
 time: "6:30pm"
