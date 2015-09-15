@@ -11,4 +11,4 @@ rsvp_url: http://h4q.me/rubyftw-2015-09
 
 JAWS: The Server-less Application Framework – Uses bleeding-edge AWS services to redefine how to build massively scalable (and cheap) apps!
 
-Not exactly Ruby this month, but David Christiansen ([@aldos](https://twitter.com/aldos)) has some experience with [JAWS Framework](https://github.com/jaws-framework/JAWS) that does away with servers and replaces them with on-demand services such as AWS Lambda and API Gateway.
+Not exactly Ruby this month, but David Christiansen ([@aldos](https://twitter.com/aldos)) will share his experience  with [JAWS Framework](https://github.com/jaws-framework/JAWS) that does away with servers and replaces them with on-demand services such as AWS Lambda and API Gateway. Come ready to play around with it!
