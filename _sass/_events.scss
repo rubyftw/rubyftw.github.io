@@ -1,9 +1,20 @@
 .event {
+  @include span-columns(4);
   margin-bottom: 20px;
+
+  @include media($mobile) {
+    @include span-columns(1);
+    margin-bottom: 0;
+  }
 }
 
 .event + .event {
   border-left: 1px solid $meta-white;
+
+  @include media($mobile) {
+    border-left: none;
+    border-top: 1px solid $meta-white;
+  }
 }
 
 .event-inner {
@@ -11,21 +22,24 @@
 }
 
 .event-date {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .event-title {
   font-weight: 800;
-  
+  line-height: 1;
+
   a {
     color: $garbage-collector-gray;
   }
 }
 
 .event-details {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .event-description p {
@@ -36,17 +50,3 @@
   text-transform: none;
 }
 
-@media all and (max-width: $container-desktop-width) {
-  .event {
-    border-radius: 0;
-    margin-bottom: 0;
-  }
-
-  .event + .event {
-    border-top: 1px dotted #e5e5e5;
-  }
-
-  .event-description p {
-    padding: 0;
-  }
-}

@@ -23,6 +23,11 @@ body {
 
 h1, h2, h3, h4 {
   font-weight: 800;
+
+  @include media($mobile) {
+    font-size: 1.3em;
+    line-height: 1.2;
+  }
 }
 
 h3 {
@@ -59,23 +64,16 @@ li:before {
 
 .short {
   display: none;
+
+  @include media($mobile) {
+    display: inline;
+  }
 }
 
-@media all and (max-width: $container-desktop-width) {
-  h1, h2, h3 {
-    font-size: 1.3em;
-    line-height: 1.2;
-  }
+.long {
+  display: inline;
 
-  h1, h2, h3, h4, ul.members-list, p {
-    padding: 0 20px;
-  }
-
-  .long {
+  @include media($mobile) {
     display: none;
-  }
-
-  .short {
-    display: inline;
   }
 }

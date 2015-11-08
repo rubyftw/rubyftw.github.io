@@ -1,28 +1,21 @@
 .footer {
-  height: 120px;
-}
-
-.footer {
   background-color: $newbie-black;
   color: $garbage-collector-gray;
   font-size: 12px;
   font-weight: 300;
+  height: 120px;
   letter-spacing: 3px;
   padding: 30px 15px;
   text-align: center;
   text-transform: uppercase;
-}
 
-.footer p {
-  text-indent: 12px;
-}
-
-@media all and (max-width: $container-desktop-width) {
-  .footer {
-    font-size: 10px;
+  p {
+    text-indent: 12px;
   }
 
-  .footer p {
-    text-indent: 6px;
+  @include media($mobile) {
+    font-size: 10px;
+
+    p { text-indent: 6px; }
   }
 }

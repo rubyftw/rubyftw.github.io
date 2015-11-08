@@ -3,8 +3,7 @@ section {
 }
 
 section > article {
-  max-width: 1000px;
-  margin: 0 auto;
+  @include outer-container;
 }
 
 section.intro {
@@ -27,5 +26,13 @@ section.misc {
   a {
     color: $meta-white;
     text-decoration: underline;
+  }
+
+  .external-links { @include span-columns(4); }
+  .involvement { @include span-columns(8); }
+
+  @include media($mobile) {
+    .external-links { @include span-columns(1); }
+    .involvement { @include span-columns(1); }
   }
 }

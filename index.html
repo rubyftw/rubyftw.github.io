@@ -22,23 +22,27 @@ layout: home
 </section>
 
 <section id="events" class="events">
-  {% include upcoming.html %}
+  <article>
+    {% include upcoming.html %}
+  </article>
 </section>
 
 <section id="misc" class="misc">
   <article>
-    <h3>Get Involved</h3>
-    <ul>
-      <li><a href="/s/group">Join the Google group</a> and participate in discussions</li>
-      <li>Attend our monthly meetups (don't forget to RSVP)</li>
-      <li><a href="/s/submit">Volunteer to speak</a> on a subject</li>
-      <li>Announce impromptu meetups at a nearby beverage joint</li>
-      <li>Follow announcements on <a href="/s/twitter">Twitter</a></li>
-      <li>Fork this site on <a href="/s/github">GitHub</a> and help us shine things up</li>
-    </ul>
-  </article>
+    <div class="involvement">
+      <h3>Get Involved</h3>
+      <ul>
+        <li><a href="/s/group">Join the Google group</a> and participate in discussions</li>
+        <li>Attend our monthly meetups (don't forget to RSVP)</li>
+        <li><a href="/s/submit">Volunteer to speak</a> on a subject</li>
+        <li>Announce impromptu meetups at a nearby beverage joint</li>
+        <li>Follow announcements on <a href="/s/twitter">Twitter</a></li>
+        <li>Fork this site on <a href="/s/github">GitHub</a> and help us shine things up</li>
+      </ul>
+    </div>
 
-  <aside>
-    {% include links.html %}
-  </aside>
+    <div class="external-links">
+      {% include links.html %}
+    </div>
+  </article>
 </section>
