@@ -6,10 +6,11 @@
 $ruby-red: #991139;
 $newbie-black: #222;
 $garbage-collector-gray: #444;
+$meta-stone: #777;
 $meta-gray: #9db0b5;
 $meta-white: #eef3f3;
 
-$font-family-sans-serif: "calluna-sans", "Calluna Sans", "Segoe UI", Helvetica, sans-serif;
+$font-family-sans-serif: "Avenir", "Segoe UI", Helvetica, sans-serif;
 $font-family-serif: "Palatino", "Palatino Linotype", "URW Palladio", serif;
 
 $mobile: new-breakpoint(max-width 48em 1);
@@ -29,6 +30,5 @@ p.intro {
 
   @include media($mobile) {
     font-size: 18px;
-    margin: 20px 0 0 0;
   }
 }

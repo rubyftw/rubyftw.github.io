@@ -9,6 +9,10 @@ section > article {
 section.intro {
   background: $newbie-black;
   color: #fff !important;
+
+  a {
+    color: lighten($ruby-red, 7%);
+  }
 }
 
 section.scoop {
