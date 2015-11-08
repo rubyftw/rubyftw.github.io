@@ -1,0 +1,31 @@
+section {
+  padding: 1em;
+}
+
+section > article {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section.intro {
+  background: $newbie-black;
+  color: #fff !important;
+}
+
+section.scoop {
+  background: $meta-white;
+}
+
+section.misc {
+  color: #ccc;
+  background-color: $ruby-red;
+
+  h3 {
+    color: $meta-white;
+  }
+
+  a {
+    color: $meta-white;
+    text-decoration: underline;
+  }
+}

@@ -10,7 +10,7 @@ html, body {
   padding: 0;
 }
 
-body, .pure-g [class *= "pure-u"] {
+body {
   font-family: $font-family-sans-serif;
 }
 
@@ -24,8 +24,6 @@ body {
 h1, h2, h3, h4 {
   font-weight: 800;
 }
-
-.pure-g [class*='pure-u-'] { padding: 10px; }
 
 h3 {
   color: $ruby-red;
@@ -72,8 +70,6 @@ li:before {
   h1, h2, h3, h4, ul.members-list, p {
     padding: 0 20px;
   }
-
-  .pure-g [class*='pure-u-'] { padding: 0px; }
 
   .long {
     display: none;
