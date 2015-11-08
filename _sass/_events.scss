@@ -17,6 +17,10 @@
 
 .event-title {
   font-weight: 800;
+  
+  a {
+    color: $garbage-collector-gray;
+  }
 }
 
 .event-details {
