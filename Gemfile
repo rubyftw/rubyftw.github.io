@@ -1,5 +1,5 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 
-gem 'jekyll', '~> 3.0'
-gem 'kramdown'
+gem "jekyll", "~> 3.0"
+gem "kramdown"
 
