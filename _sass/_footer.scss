@@ -1,5 +1,5 @@
 .footer {
-  background-color: $newbie-black;
+  @include linear-gradient(#000, $newbie-black);
   color: $garbage-collector-gray;
   font-size: 12px;
   font-weight: 300;

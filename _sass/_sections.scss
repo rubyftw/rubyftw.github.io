@@ -7,7 +7,8 @@ section > article {
 }
 
 section.intro {
-  background: $newbie-black;
+  @include linear-gradient($newbie-black, lighten($newbie-black, 5%));
+
   color: #fff !important;
 
   a {
@@ -20,8 +21,8 @@ section.scoop {
 }
 
 section.misc {
+  @include linear-gradient($ruby-red, lighten($ruby-red, 5%));
   color: #ccc;
-  background-color: $ruby-red;
 
   h3 {
     color: $meta-white;

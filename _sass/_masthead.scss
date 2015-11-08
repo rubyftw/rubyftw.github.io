@@ -1,5 +1,9 @@
+.masthead {
+  @include linear-gradient($ruby-red, lighten($ruby-red, 10%));
+}
+
 .site-header {
-  background: $ruby-red url('/images/ruby.png') no-repeat center 30px;
+  background: transparent url('/images/ruby.png') no-repeat center 30px;
   background-size: 630px 485px;
   font-weight: 800;
   color: #fff;
