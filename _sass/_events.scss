@@ -1,6 +1,5 @@
 .event {
   @include span-columns(4);
-  @include pad(0 0 0 default);
   margin-bottom: 20px;
 
   @include media($mobile) {
@@ -11,6 +10,7 @@
 }
 
 .event + .event {
+  @include pad(0 0 0 default);
   border-left: 1px solid $meta-white;
 
   @include media($mobile) {
