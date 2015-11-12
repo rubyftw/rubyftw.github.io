@@ -13,7 +13,9 @@ $meta-white: #eef3f3;
 $font-family-sans-serif: "Avenir", "Segoe UI", Helvetica, sans-serif;
 $font-family-serif: "Palatino", "Palatino Linotype", "URW Palladio", serif;
 
-$mobile: new-breakpoint(max-width 48em 1);
+$mobile: new-breakpoint(max-width 42em 1);
+
+$max-width: em(800);
 
 @import "base";
 @import "sections";
