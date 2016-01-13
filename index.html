@@ -21,11 +21,13 @@ layout: home
   </div>
 </section>
 
+{% if site.upcoming_events.size > 0 %}
 <section id="events" class="events">
   <article>
     {% include upcoming.html %}
   </article>
 </section>
+{% endif %}
 
 <section id="misc" class="misc">
   <article>
