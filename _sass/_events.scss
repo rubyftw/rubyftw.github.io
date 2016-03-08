@@ -1,5 +1,5 @@
 .event {
-  @include span-columns(4);
+  @include span-columns(12);
   margin-bottom: 20px;
 
   @include media($mobile) {
@@ -28,6 +28,7 @@
 }
 
 .event-title {
+  font-size: 24px;
   font-weight: 800;
   line-height: 1;
 
