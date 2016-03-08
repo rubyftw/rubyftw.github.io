@@ -23,6 +23,7 @@ section.scoop {
 section.misc {
   @include linear-gradient($ruby-red, lighten($ruby-red, 5%));
   color: #ccc;
+  padding-bottom: 2.5em;
 
   h3 {
     color: $meta-white;
