@@ -1,0 +1,15 @@
+---
+title: "Beyond the Books - Building Stuff With Rails"
+long_date: "May 19, 2016"
+link: https://www.meetup.com/RubyFTW-Fort-Worth-Ruby-User-Group/events/230597364/
+time: "6:30pm"
+location: Simpli.fi
+location_url: https://goo.gl/maps/o34lH
+rsvp_url: https://www.meetup.com/RubyFTW-Fort-Worth-Ruby-User-Group/events/230597364/
+---
+
+So, you've read the books and built the tutorials and now you want to build something or add a new feature to something that already exists, but you find yourself staring at your IDE and don't know how to start.
+
+Whether you are a new developer or an old one, we all have moments where we need to build something and we aren't really sure how to do it. Dave Christiansen will walk us through an approach he calls "error driven development" that he uses regularly when starting a new feature . This approach minimizes premature optimization, helps avoid overthinking, and helps take the mystery out of the Rails magic.
+
+This presentation is appropriate for all skill levels in Ruby on Rails and will inevitably involve discussion about getting over "coders' block" that will be valuable even for experienced programmers.
