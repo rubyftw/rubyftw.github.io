@@ -1,6 +1,6 @@
 ---
 title: "Building Reliable Web Clients with Elm"
-long_date: "March 17, 2016"
+long_date: "April 21, 2016"
 link: https://www.meetup.com/RubyFTW-Fort-Worth-Ruby-User-Group/events/230170997/
 time: "6:30pm"
 location: Simpli.fi
