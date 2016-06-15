@@ -1,6 +1,6 @@
 ---
-title: "Building Reliable Web Clients with Elm"
-long_date: "April 21, 2016"
+title: "Rails 5 Experience Reports - Upgrading & Green Field Development"
+long_date: "June 23, 2016"
 link: https://www.meetup.com/RubyFTW-Fort-Worth-Ruby-User-Group/events/231894524/
 time: "6:30pm"
 location: Simpli.fi
