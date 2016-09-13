@@ -1,0 +1,45 @@
+---
+title: "Ruby for Newbies and D&D"
+long_date: "October 20, 2016"
+link: https://www.meetup.com/RubyFTW-Fort-Worth-Ruby-User-Group/events/234006429/
+time: "6:30pm"
+location: Simpli.fi
+location_url: https://goo.gl/maps/o34lH
+rsvp_url: https://www.meetup.com/RubyFTW-Fort-Worth-Ruby-User-Group/events/234006429/
+---
+
+New to Ruby?  New to Programming?  Have you always wanted to get into software development but have been too intimidated by things like terminals, vim and lambdas?  
+
+Craig Bowes will present a complete newbie's introduction to programming with Ruby.  Learn all the basics from writing and running ruby programs, flow control, variables,  gems, maybe even a little OOP for good measure.  
+
+This will be a "learn by doing", "get your hands dirty" approach to Ruby.  Taking lessons from teaching his kids Ruby programming using concepts from RPG's, Craig will walk you through bringing elements from pen and paper role playing games like Dungeons and Dragons with rolling dice and fighting monsters while teaching programming concepts.
+
+### Prerequisites
+
+If you want to follow along on your own laptop you'll want to pre-install a good code editor to write your Ruby programs in (no...a word processor like Microsoft Word or TextEdit won't work.)  
+
+Some popular code editors that work well with Ruby:
+
+* [Sublime Text](https://www.sublimetext.com/)
+* [Atom](https://atom.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+While we recommend writing Ruby on Mac or Linux, we understand some people will only have access to an operating system called "Windows."  The text editors above are available on all three platforms.  
+
+You'll also need to install Ruby itself, also available on all three platforms:
+
+**For Mac and Linux:**
+
+[RubyInstall](https://github.com/postmodern/ruby-install)
+
+follow the instructions to install RubyInstall and then install Ruby 2.3:
+
+ruby-install ruby 2.3 
+
+**For Windows:**
+
+<http://rubyinstaller.org/>
+
+You can install ruby 2.3.1 on windows by following the instructions.   
+
+If you have any problems, feel free to message me on Meetup.com ahead of time.
