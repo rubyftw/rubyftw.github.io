@@ -10,7 +10,8 @@
 }
 
 .event + .event {
-  @include pad(default 0 0 0);
+  @include margin(default 0 0 0);
+  @include pad(2*default 0 0 0);
   border-top: 1px solid $meta-white;
 
   @include media($mobile) {
