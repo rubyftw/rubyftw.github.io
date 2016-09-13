@@ -9,17 +9,6 @@
   }
 }
 
-.event + .event {
-  @include pad(0 0 0 default);
-  border-left: 1px solid $meta-white;
-
-  @include media($mobile) {
-    border-left: none;
-    border-top: 1px solid $meta-white;
-    padding: 1em 0;
-  }
-}
-
 .event-date {
   color: $meta-stone;
   font-size: 14px;
