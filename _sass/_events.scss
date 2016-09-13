@@ -13,11 +13,6 @@
   @include margin(1em 0 0 0);
   @include pad(2em 0 0 0);
   border-top: 1px solid $meta-white;
-
-  @include media($mobile) {
-    border-left: none;
-    padding: 1em 0;
-  }
 }
 
 .event-date {
