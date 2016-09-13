@@ -14,7 +14,7 @@ Craig Bowes will present a complete newbie's introduction to programming with Ru
 
 This will be a "learn by doing", "get your hands dirty" approach to Ruby.  Taking lessons from teaching his kids Ruby programming using concepts from RPG's, Craig will walk you through bringing elements from pen and paper role playing games like Dungeons and Dragons with rolling dice and fighting monsters while teaching programming concepts.
 
-### Prerequisites
+#### Prerequisites
 
 If you want to follow along on your own laptop you'll want to pre-install a good code editor to write your Ruby programs in (no...a word processor like Microsoft Word or TextEdit won't work.)  
 
