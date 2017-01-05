@@ -12,7 +12,7 @@ We'll be discussing the various hosting approaches we are taking for Rails apps,
 
 - AWS
 - Heroku
-- And anything else anyone in the group is trying.
+- ...and anything else anyone in the group is trying.
 
 We'll talk about database backends, scaling, DNS, etc. and Dave will be showing us the TroopTrack AWS configuration as an example.
 
