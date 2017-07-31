@@ -25,13 +25,8 @@ layout: home
   </div>
 </section>
 
-{% if site.upcoming_events.size > 0 %}
 <section id="events" class="events">
-  <article>
-    {% include upcoming.html %}
-  </article>
 </section>
-{% endif %}
 
 <section id="misc" class="misc">
   <article>
@@ -52,3 +47,76 @@ layout: home
     </div>
   </article>
 </section>
+
+
+
+<script language="javascript">
+
+  $(function() {
+  
+
+    var template = $('#eventTemplate').html();
+    
+    $.ajax({
+      url: "http://api.meetup.com/2/events/", 
+      dataType: 'jsonp',
+      data: {crossDomain : true,  group_urlname: "RubyFTW-Fort-Worth-Ruby-User-Group"}, 
+      success: function(data) {
+        data.event_date = function() {
+          var theDate =  new Date(this.time);
+          return theDate.toDateString();
+        };
+        data.event_time = function() {
+          var theDate =  new Date(this.time);
+          return theDate.toLocaleTimeString();
+        };
+
+
+        var rendered = Mustache.render(template, data);
+        $("#events").html(rendered);
+      }
+    });
+
+  });
+
+</script>
+
+
+{% comment %}
+  We're using raw here so that Liquid doesn't interfere with Mustache 
+{% endcomment %}
+
+{% raw %} 
+
+<script id="eventTemplate" type="x-tmpl-mustache">
+  <article>
+    <div>
+      <h3>Upcoming Events</h3>
+    </div>
+
+    {{#results}}  
+      <div class="event">
+        <div class="event-date">
+          {{ event_date }} 
+        </div>
+        <div class="event-title">
+          <a href="{{ event_url }}">{{ name }}</a>
+        </div>
+        <div class="event-details">
+          <span class="event-time">{{ event_time }}</span>
+          @
+          <span class="event-location"><a href="https://www.google.com/maps/search/{{venue.name}} {{venue.address_1}} {{zip}}">{{venue.name}}</a></span>
+            | <span class="event-rsvp"><a href="{{ event_url }}">RSVP</a></span>
+        </div>
+        <div class="event-description">
+          {{{ description }}}
+        </div>
+      </div>
+    {{/results }}
+    
+  </article>
+</script>
+
+{% endraw %}
+
+
