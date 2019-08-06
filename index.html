@@ -3,120 +3,18 @@ layout: home
 ---
 <section id="intro" class="intro">
   <article>
-    <p class="intro"><em>We need you!</em> That's right friend, fellow enthusiast, Ruby newbie,
-      good-looking passerby, we're calling upon you to join us in spreading the goodness of
-      <strong><a href="http://ruby-lang.org">the Ruby programming language</a></strong> to anyone
-      interested, but especially to you!</p>
+    <p class="intro">It's been a good run...</p>
   </article>
 </section>
 
 <section id="scoop" class="scoop">
   <article>
-    <h3>The Scoop</h3>
-    <p>We meet on the third Thursday of each month at 6:30pm. Our current meeting spot is at <a
-        href="http://goo.gl/J2VQDb">Simpl.fi</a>, just west of Downtown Fort Worth, but make sure
-      to double-check the location before you head out. Organizing impromptu hacknights is
-      strongly encouraged!
-    </p>
-    
-    <p>
-      <strong>You can find all upcoming events on our <a href="/s/meetup">Meetup group page</a>.</strong>
-    </p>
+    <p>We're not actively meeting right now. Thanks to everyone for making our years of meetups special!</p>
   </div>
-</section>
-
-<section id="events" class="events">
 </section>
 
 <section id="misc" class="misc">
   <article>
-    <div class="involvement">
-      <h3>Get Involved</h3>
-      <ul>
-        <li><a href="/s/group">Join the Google group</a> and participate in discussions</li>
-        <li>Attend our monthly meetups (don't forget to RSVP)</li>
-        <li><a href="/s/submit">Volunteer to speak</a> on a subject</li>
-        <li>Announce impromptu meetups at a nearby beverage joint</li>
-        <li>Follow announcements on <a href="/s/twitter">Twitter</a></li>
-        <li>Fork this site on <a href="/s/github">GitHub</a> and help us shine things up</li>
-      </ul>
-    </div>
-
-    <div class="external-links">
-      {% include links.html %}
-    </div>
+    <center><a href="http://slack.rubyftw.org">Chat on Slack</a></center>
   </article>
 </section>
-
-
-
-<script language="javascript">
-
-  $(function() {
-  
-
-    var template = $('#eventTemplate').html();
-    
-    $.ajax({
-      url: "http://api.meetup.com/2/events/", 
-      dataType: 'jsonp',
-      data: {crossDomain : true,  group_urlname: "RubyFTW-Fort-Worth-Ruby-User-Group"}, 
-      success: function(data) {
-        data.event_date = function() {
-          var theDate =  new Date(this.time);
-          return theDate.toDateString();
-        };
-        data.event_time = function() {
-          var theDate =  new Date(this.time);
-          return theDate.toLocaleTimeString();
-        };
-
-
-        var rendered = Mustache.render(template, data);
-        $("#events").html(rendered);
-      }
-    });
-
-  });
-
-</script>
-
-
-{% comment %}
-  We're using raw here so that Liquid doesn't interfere with Mustache 
-{% endcomment %}
-
-{% raw %} 
-
-<script id="eventTemplate" type="x-tmpl-mustache">
-  <article>
-    <div>
-      <h3>Upcoming Events</h3>
-    </div>
-
-    {{#results}}  
-      <div class="event">
-        <div class="event-date">
-          {{ event_date }} 
-        </div>
-        <div class="event-title">
-          <a href="{{ event_url }}">{{ name }}</a>
-        </div>
-        <div class="event-details">
-          <span class="event-time">{{ event_time }}</span>
-          @
-          <span class="event-location"><a href="https://www.google.com/maps/search/{{venue.name}} {{venue.address_1}} {{zip}}">{{venue.name}}</a></span>
-            | <span class="event-rsvp"><a href="{{ event_url }}">RSVP</a></span>
-        </div>
-        <div class="event-description">
-          {{{ description }}}
-        </div>
-      </div>
-    {{/results }}
-    
-  </article>
-</script>
-
-{% endraw %}
-
-
